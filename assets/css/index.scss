@@ -1,0 +1,31 @@
+/*
+
+Ofisiant.com
+The main css file
+
+*/
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito:ital,wght@0,600;0,700;0,800;1,800&display=swap');
+
+@font-face {
+    font-family: 'Fontastique';
+    src: url('../fonts/fontastique.ttf') format('truetype'),
+}
+
+$font_montserrat : 'Montserrat',
+sans-serif;
+$font_nunito : 'Nunito',
+sans-serif;
+$font_fonta : 'Fontastique';
+
+//Devices Sizes
+
+$mobile: "800px";
+$small-mobile: "400px";
+
+
+//Style Files
+
+@import "./reset.scss";
+@import "./home.scss";
