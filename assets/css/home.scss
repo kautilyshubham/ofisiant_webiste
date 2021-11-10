@@ -392,28 +392,43 @@ header {
     // background: rgb(255, 247, 239);
     filter: brightness(97%);
 
-    .bens_card {
-        padding: 15px;
-        text-align: center;
-        width: 33%;
-        margin-bottom: 30px;
+    .beni_cards_group {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
-        img {
-            height: 100px;
-        }
+        .bens_card {
+            padding: 15px;
+            text-align: center;
+            width: 33%;
+            margin-bottom: 30px;
 
-        h4 {
-            font-size: 2rem;
-            font-family: $font_nunito;
-            font-weight: 800;
-            margin: 25px 0px;
-            color: #444;
-        }
+            img {
+                height: 100px;
+            }
 
-        p {
-            font-family: $font_montserrat;
-            line-height: 1.5;
-            color: #666;
+            h4 {
+                font-size: 2rem;
+                font-family: $font_nunito;
+                font-weight: 800;
+                margin: 25px 0px;
+                color: #444;
+            }
+
+            p {
+                font-family: $font_montserrat;
+                line-height: 1.5;
+                color: #666;
+            }
+
+            @media screen and (max-width:800px) {
+                width: 50%;
+            }
+
+            @media screen and (max-width:500px) {
+                width: 100%;
+            }
         }
     }
 }
