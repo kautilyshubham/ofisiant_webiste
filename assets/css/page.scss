@@ -1,0 +1,33 @@
+// Variable import
+@import "./variable.scss";
+
+// About us page
+.page_banner {
+    width: 100%;
+    padding: 5rem 0px;
+}
+
+.about_main {
+    h2 {
+        font-size: 4rem;
+        line-height: 1.3;
+        color: #454545;
+        font-family: $font_fonta;
+        text-align: center;
+        margin: 2rem 0px;
+    }
+
+    p {
+        font-size: 20px;
+        color: #676767;
+        line-height: 1.4;
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        margin-top: 40px;
+        font-family: 2rem;
+        color: #888;
+        margin-bottom: 10px;
+    }
+}

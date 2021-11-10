@@ -13,19 +13,12 @@ The main css file
     src: url('../fonts/fontastique.ttf') format('truetype'),
 }
 
-$font_montserrat : 'Montserrat',
-sans-serif;
-$font_nunito : 'Nunito',
-sans-serif;
-$font_fonta : 'Fontastique';
 
-//Devices Sizes
-
-$mobile: "800px";
-$small-mobile: "400px";
 
 
 //Style Files
-
+@import "./variable.scss";
+@import "./modal.scss";
 @import "./reset.scss";
 @import "./home.scss";
+@import "./page.scss";

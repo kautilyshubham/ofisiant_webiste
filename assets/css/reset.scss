@@ -2,6 +2,9 @@
         https://ofisiant.com/
 */
 
+// Variable import
+@import "./variable.scss";
+
 * {
     padding: 0px;
     margin: 0px;
@@ -19,7 +22,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    background: #fff7ef;
+    background: #fff;
     width: 100%;
     scroll-behavior: smooth;
 
